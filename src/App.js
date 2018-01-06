@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import logo from './images/logo.png'
 import Icon from 'react-simple-icons'
+import hero from './images/projects/exxon-mobil-sales-supervisor-excellence.png'
+import sc from './images/projects/jcdecaux-smart-content.png'
 
 class App extends Component {
   render() {
@@ -31,14 +33,40 @@ class App extends Component {
             </div>
           </div>
         </header>
-        <section className="flex w-full h-full bg-grey">
-          <div className="w-1/2 h-64">
 
+        <div className="flex w-full flex-wrap bg-teal-light p-4">
+          <div className="flex-1 max-w-sm rounded-sm overflow-hidden shadow-lg mr-3 bg-white">
+            <img className="w-full" src={hero} alt="ExxonMobil - Sales Supervisor Excellence"/>
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">ExxonMobil - Sales Supervisor Excellence</div>
+              <p className="text-grey-darker text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div className="px-6 py-4">
+              <Icon name="github" fill="#181717" size="32"/>
+              <Icon name="html5" fill="#1DA1F2" size="32"/>
+              <Icon name="javascript" fill="#1DA1F2" size="32"/>
+              <Icon name="css" fill="#1DA1F2" size="32"/>
+            </div>
           </div>
-          <div className="w-1/2 h-64">
 
+          <div className="flex-1 max-w-sm rounded-sm overflow-hidden shadow-lg bg-white">
+            <img className="w-full" src={sc} alt="JCDecaux - SmartContent"/>
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">JCDecaux - SmartContent</div>
+              <p className="text-grey-darker text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div className="px-6 py-4">
+              <Icon name="github" fill="#181717" size="32"/>
+              <Icon name="html5" fill="#1DA1F2" size="32"/>
+              <Icon name="javascript" fill="#1DA1F2" size="32"/>
+              <Icon name="css" fill="#1DA1F2" size="32"/>
+            </div>
           </div>
-        </section>
+        </div>
       </div>
     );
   }
