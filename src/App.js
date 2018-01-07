@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Projects from './components/Projects';
+import ButtonPink from './components/Button/Pink';
 
 class App extends Component {
     render() {
@@ -17,66 +18,67 @@ class App extends Component {
                     <div className="w-1/4 h-1 bg-green" />
                 </section>
                 <section className="w-full h-screen text-center bg-transparent text-xl">
-                  <div className="flex flex-row h-full items-center p-12">
-                    <p className="m-4">
-                      I'm an experienced and highly motivated
-                      <span className="text-pink font-bold">
-                            {' '}
-                        Freelance Senior Full Stack Developer
-                        </span>{' '}
-                      with over 15 years in the industry.
-                    </p>
-                    <p className="m-4">
-                      I've been lucky enough to work at some of the biggest
-                      companies in their respective industries including{' '}
-                      <span className="text-pink font-bold">
-                            Saatchi & Saatchi
-                        </span>{' '}
-                      and more recently, the world's leading outdoor
-                      advertising company,
-                      <span className="text-pink font-bold"> JCDecaux</span>.
+                    <div className="flex flex-row h-full items-center p-12">
+                        <p className="m-4">
+                            I'm an experienced and highly motivated
+                            <span className="text-pink font-bold">
+                                {' '}
+                                Freelance Senior Full Stack Developer
+                            </span>{' '}
+                            with over 15 years in the industry.
+                        </p>
+                        <p className="m-4">
+                            I've been lucky enough to work at some of the
+                            biggest companies in their respective industries
+                            including{' '}
+                            <span className="text-pink font-bold">
+                                Saatchi & Saatchi
+                            </span>{' '}
+                            and more recently, the world's leading outdoor
+                            advertising company,
+                            <span className="text-pink font-bold">
+                                {' '}
+                                JCDecaux
+                            </span>.
+                            <section className="flex flex-row w-full justify-center items-center p-8">
+                                <a
+                                    className="mr-2"
+                                    href="https://uk.yunojuno.com/p/craig-cartmell"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <ButtonPink>
+                                        Check my availability
+                                    </ButtonPink>
+                                </a>
 
-                      <section className="flex flex-row w-full justify-center items-center p-8">
-                        <a
-                          href="https://uk.yunojuno.com/p/craig-cartmell"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded mr-1">
-                            Check my availability
-                          </button>
-                        </a>
+                                <a
+                                    className="mr-2"
+                                    href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <ButtonPink>Get in touch</ButtonPink>
+                                </a>
 
-                        <a
-                          href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded mr-1">
-                            Get in touch
-                          </button>
-                        </a>
-
-                        <a
-                          href="https://uk.yunojuno.com/profile/p/craig-cartmell/cv/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
-                            Download my CV
-                          </button>
-                        </a>
-                      </section>
-                    </p>
-                    <p className="m-4">
-                      I'm dedicated to staying ahead of the curve, writing
-                      clean, readable code and helping implement best
-                      practises.
-                    </p>
-                  </div>
+                                <a
+                                    href="https://uk.yunojuno.com/profile/p/craig-cartmell/cv/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <ButtonPink>Download my CV</ButtonPink>
+                                </a>
+                            </section>
+                        </p>
+                        <p className="m-4">
+                            I'm dedicated to staying ahead of the curve, writing
+                            clean, readable code and helping implement best
+                            practises.
+                        </p>
+                    </div>
                 </section>
 
-                <Projects/>
+                <Projects />
             </div>
         );
     }

@@ -10,7 +10,6 @@ import JavaScript from '../JavaScript';
 import Node from '../DevIcons/Node';
 import Webpack from '../DevIcons/Webpack';
 import Gulp from '../DevIcons/Gulp';
-import HTML5 from '../DevIcons/HTML5';
 import Sequelize from '../DevIcons/Sequelize';
 import CodeIgniter from '../DevIcons/CodeIgniter';
 import CSS3 from '../DevIcons/CSS3';
@@ -50,13 +49,13 @@ const projectsData = [
     {
         color: 'indigo',
         description:
-            'A single page, real-time scDashboardHero showing job failures and campaign analytics.',
+            'A single page, real-time dashboard showing job failures and campaign analytics.',
         heroSrc: scDashboardHero,
         icons: [
             <ReactIcon />,
-            <JavaScript />,
-            <MySQL />,
+            <Node />,
             <Sequelize />,
+            <MySQL />,
             <Webpack />,
             <Babel />
         ],

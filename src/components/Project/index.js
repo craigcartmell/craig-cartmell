@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ButtonWhite from '../Button/White';
 const Project = ({
     color,
     heroSrc,
@@ -39,9 +39,7 @@ const Project = ({
             {url ? (
                 <span className="float-right">
                     <a href={url} rel="noopener noreferrer" target="_blank">
-                        <button className="bg-transparent hover:bg-white text-white hover:text-blue-dark font-bold py-2 px-4 border border-white rounded">
-                            View
-                        </button>
+                        <ButtonWhite>View</ButtonWhite>
                     </a>
                 </span>
             ) : null}
