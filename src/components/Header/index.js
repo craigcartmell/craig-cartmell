@@ -45,7 +45,6 @@ const Header = () => (
                         target="_blank"
                         title="LinkedIn"
                     >
-                        {/*<span style={{color: "#0077B5"}}>*/}
                         <span
                             style={{ color: defaultConfig().colors['white'] }}
                         >
@@ -60,7 +59,6 @@ const Header = () => (
                         target="_blank"
                         title="CV"
                     >
-                        {/*<span style={{color: "#0077B5"}}>*/}
                         <span
                             style={{ color: defaultConfig().colors['white'] }}
                         >
@@ -75,7 +73,6 @@ const Header = () => (
                         target="_blank"
                         title="Email"
                     >
-                        {/*<span style={{color: "#0077B5"}}>*/}
                         <span
                             style={{ color: defaultConfig().colors['white'] }}
                         >
@@ -90,7 +87,6 @@ const Header = () => (
                         target="_blank"
                         title="GitHub"
                     >
-                        {/*<span style={{color: "#181717"}}>*/}
                         <span
                             style={{ color: defaultConfig().colors['white'] }}
                         >
@@ -105,7 +101,6 @@ const Header = () => (
                         target="_blank"
                         title="Twitter"
                     >
-                        {/*<span style={{color: '#1DA1F2'}}>*/}
                         <span
                             style={{ color: defaultConfig().colors['white'] }}
                         >
