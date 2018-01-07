@@ -1,5 +1,18 @@
 import React from 'react';
-import Icon from 'react-icons-kit';
+import ReactIcon from '../DevIcons/React'
+import PHPIcon from '../DevIcons/PHP'
+import MySQL from "../DevIcons/MySql"
+import Sass from "../DevIcons/Sass"
+import Babel from "../DevIcons/Babel"
+import Laravel from "../DevIcons/Laravel"
+import JavaScript from "../JavaScript"
+import Node from "../DevIcons/Node"
+import Webpack from "../DevIcons/Webpack"
+import Gulp from "../DevIcons/Gulp"
+import HTML5 from "../DevIcons/HTML5"
+import Sequelize from "../DevIcons/Sequelize"
+import CodeIgniter from "../DevIcons/CodeIgniter"
+import CSS3 from "../DevIcons/CSS3"
 
 const Project = ({
     color,
@@ -31,10 +44,24 @@ const Project = ({
             <p className="text-sm mt-3">{role}</p>
         </div>
         <div className="px-4 py-2 ">
-            <span className="opacity-50" style={{ color: '#fff' }}>
-                {icons.map(icon => (
-                    <Icon icon={icon} size={32} className="mr-1" />
-                ))}
+            <span>
+                <ReactIcon className="w-10"/>
+                <PHPIcon className="w-10"/>
+                <MySQL className="w-10"/>
+                <Sass className="w-10"/>
+                <Babel className="w-10"/>
+                <Laravel className="w-10"/>
+                <JavaScript className="w-10"/>
+                <Node className="w-10"/>
+                <Webpack className="w-10"/>
+                <Gulp className="w-10"/>
+                <HTML5 className="w-10"/>
+                <Sequelize className="w-10"/>
+                <CodeIgniter className="w-10"/>
+                <CSS3 className="w-10"/>
+                {/*{icons.map(icon => (*/}
+                    {/*<Icon icon={icon} size={32} className="mr-1" />*/}
+                {/*))}*/}
             </span>
           {url ? <span className="float-right">
               <a href={url} rel="noopener noreferrer" target="_blank">
