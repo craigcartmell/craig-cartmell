@@ -2,7 +2,7 @@
   "name": "craig-cartmell",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://craigcartmell.github.io/craig-cartmell",
+  "homepage": "http://craigcartmell.london",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
