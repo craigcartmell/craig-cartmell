@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -57,7 +59,7 @@
  */
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }

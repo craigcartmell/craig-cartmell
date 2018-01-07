@@ -17,7 +17,7 @@ const Project = ({
             <img
                 className="w-full"
                 src={heroSrc}
-                alt="ExxonMobil - Sales Supervisor Excellence"
+                alt={description}
                 style={style}
             />
         </div>
