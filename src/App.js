@@ -14,7 +14,8 @@ import { html5 } from 'react-icons-kit/fa';
 import { css3 } from 'react-icons-kit/fa';
 
 import hero from './images/projects/exxon-mobil-sales-supervisor-excellence.png';
-import sc from './images/projects/jcdecaux-smart-content.png';
+// import sc from './images/projects/jcdecaux-smart-content.png';
+import sc from './images/projects/jcdecaux-smart-content-new.png';
 import crav from './images/projects/cravendale-milkposter.png';
 import tat from './images/projects/teachers-as-tutors.png';
 import theDoor from './images/projects/saatchi-the-door.png';
@@ -140,6 +141,7 @@ class App extends Component {
                       tech stack and creating the initial boilerplate."
                       heroSrc={sc}
                       icons={[html5, css3]}
+                      style={{clipPath: "polygon(0px 0px, 100% 0px, 100% 100%, 0px 90%)"}}
                       title="SmartContent for Dynamic, JCDecaux"
                   />
 
@@ -170,7 +172,7 @@ class App extends Component {
                       role="As the sole frontend developer, my role was to create a new Self Assessment Platform for
                       ExxonMobil Sales Employees."
                       style={{
-                          clipPath: 'polygon(0 0, 100% 0, 100% 52%, 0 66%)'
+                          clipPath: 'polygon(0px 0px, 100% 0px, 100% 100%, 0px 94%)'
                       }}
                   />
 
@@ -184,6 +186,7 @@ class App extends Component {
                     role="Responsible for the full backend development, my role was to create a RESTful API to validate
                      and store submitted user data. Submissions could be viewed via an admin interface which allowed
                      searching and exporting of data."
+                    style={{clipPath: 'polygon(0px 0px, 100% 0px, 100% 84%, 0px 96%)'}}
                     title="The Door for Saatchi & Saatchi"
                     url="http://thedoor.saatchi.co.uk/"
                   />
@@ -198,6 +201,7 @@ class App extends Component {
                       role="Responsible for the full backend development, my role was to create an API to store
                       submitted user data and generate an avatar using Imagick."
                       title="Cravendale Milk Poster for Saatchi & Saatchi"
+                      style={{clipPath: 'polygon(0px 0px, 100% 0px, 100% 99%, 0px 90%)'}}
                       url="http://www.cravendale.co.uk/milkposter/"
                   />
 
@@ -213,7 +217,7 @@ class App extends Component {
                       lessons using a calendar system and issue invoices."
                       title="Teachers As Tutors"
                       style={{
-                          clipPath: 'polygon(0 0, 100% 0, 100% 76%, 0 86%)'
+                          clipPath: 'polygon(0px 0px, 100% 0px, 100% 86%, 0px 100%)'
                       }}
                       url="https://www.teachersastutors.org/"
                   />
