@@ -22,7 +22,7 @@ import dashboard from './images/projects/jcdecaux-smart-content-dashboard.png';
 class App extends Component {
     render() {
         return (
-            <div className="w-full h-full bg-grey-darkest text-white">
+            <div className="w-full h-full bg-blue-darkest text-white">
                 <header className="flex w-full h-auto p-4 y-4">
                     <div className="flex-1">
                         <img
@@ -142,6 +142,7 @@ class App extends Component {
                     style={{
                       clipPath: 'polygon(0 0, 100% 0, 100% 76%, 0 86%)'
                     }}
+                    url="https://github.com/craigcartmell/dashboard"
                   />
 
                   <Project
@@ -170,6 +171,7 @@ class App extends Component {
                      and store submitted user data. Submissions could be viewed via an admin interface which allowed
                      searching and exporting of data."
                     title="The Door for Saatchi & Saatchi"
+                    url="http://thedoor.saatchi.co.uk/"
                   />
 
                   <Project
@@ -182,6 +184,7 @@ class App extends Component {
                       role="Responsible for the full backend development, my role was to create an API to store
                       submitted user data and generate an avatar using Imagick."
                       title="Cravendale Milk Poster for Saatchi & Saatchi"
+                      url="http://www.cravendale.co.uk/milkposter/"
                   />
 
                   <Project
@@ -198,6 +201,7 @@ class App extends Component {
                       style={{
                           clipPath: 'polygon(0 0, 100% 0, 100% 76%, 0 86%)'
                       }}
+                      url="https://www.teachersastutors.org/"
                   />
 
                 </section>
