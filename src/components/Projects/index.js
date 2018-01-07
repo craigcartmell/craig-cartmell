@@ -67,7 +67,7 @@ const projectsData = [
         style: {
             clipPath: 'polygon(0 0, 100% 0, 100% 76%, 0 86%)'
         },
-        url: 'https://github.com/craigcartmell/scDashboardHero'
+        url: 'https://github.com/craigcartmell/dashboard'
     },
     {
         color: 'teal',
