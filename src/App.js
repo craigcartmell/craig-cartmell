@@ -10,6 +10,8 @@ import Icon from 'react-icons-kit';
 import { linkedin } from 'react-icons-kit/icomoon';
 import { github } from 'react-icons-kit/icomoon';
 import { twitter } from 'react-icons-kit/icomoon';
+import { cloudDownload } from 'react-icons-kit/icomoon';
+import { mail4 } from 'react-icons-kit/icomoon';
 import { html5 } from 'react-icons-kit/fa';
 import { css3 } from 'react-icons-kit/fa';
 
@@ -55,6 +57,32 @@ class App extends Component {
                                     {/*<span style={{color: "#0077B5"}}>*/}
                                     <span style={{ color: defaultConfig().colors["white"] }}>
                                         <Icon icon={linkedin} size={24} />
+                                    </span>
+                                </a>
+                            </span>
+                            <span className="mr-6">
+                                <a
+                                  href="https://uk.yunojuno.com/profile/p/craig-cartmell/cv"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                  title="CV"
+                                >
+                                    {/*<span style={{color: "#0077B5"}}>*/}
+                                  <span style={{ color: defaultConfig().colors["white"] }}>
+                                        <Icon icon={cloudDownload} size={24} />
+                                    </span>
+                                </a>
+                            </span>
+                            <span className="mr-6">
+                                <a
+                                  href="mailto:craigcartmell1@gmail.com"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                  title="Email"
+                                >
+                                    {/*<span style={{color: "#0077B5"}}>*/}
+                                  <span style={{ color: defaultConfig().colors["white"] }}>
+                                        <Icon icon={mail4} size={24} />
                                     </span>
                                 </a>
                             </span>
@@ -121,12 +149,32 @@ class App extends Component {
                 </section>
                 <section className="flex flex-row w-full justify-center items-center p-8">
                   <a
+                    href="https://uk.yunojuno.com/p/craig-cartmell"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
+                      Check my availability
+                    </button>
+                  </a>
+
+                  <a
                     href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
                       Get in touch
+                    </button>
+                  </a>
+
+                  <a
+                    href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
+                      Download my CV
                     </button>
                   </a>
                 </section>

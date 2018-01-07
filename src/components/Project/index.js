@@ -39,7 +39,7 @@ const Project = ({
           {url ? <span className="float-right">
               <a href={url} rel="noopener noreferrer" target="_blank">
                 <button
-                  className="bg-transparent hover:bg-pink-dark text-grey-dark hover:text-pink-light font-bold py-2 px-4 border border-grey-dark rounded">
+                  className="bg-transparent hover:bg-pink-dark text-white hover:text-pink-light font-bold py-2 px-4 border border-white rounded">
                   View
                 </button>
               </a>
