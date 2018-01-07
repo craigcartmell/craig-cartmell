@@ -6,7 +6,7 @@ import MySQL from '../DevIcons/MySql';
 import Sass from '../DevIcons/Sass';
 import Babel from '../DevIcons/Babel';
 import Laravel from '../DevIcons/Laravel';
-import JavaScript from '../JavaScript';
+import JavaScript from '../DevIcons/JavaScript';
 import Node from '../DevIcons/Node';
 import Webpack from '../DevIcons/Webpack';
 import Gulp from '../DevIcons/Gulp';

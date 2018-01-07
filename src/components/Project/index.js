@@ -32,8 +32,8 @@ const Project = ({
         <div className="px-4 py-2">
             <span>
                 {icons &&
-                    icons.map(icon =>
-                        React.cloneElement(icon, { className: 'w-8 mr-2' })
+                    icons.map((icon, key) =>
+                        React.cloneElement(icon, { className: 'w-8 mr-2', key })
                     )}
             </span>
             {url ? (
