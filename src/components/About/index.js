@@ -7,17 +7,18 @@ const About = () => (
             <div className="m-4">
                 I'm an experienced and highly motivated
                 <span className="text-pink font-bold">
+                    {' '}
                     Freelance Senior Full Stack Developer{' '}
-                </span>{' '}
+                </span>
                 with over 15 years in the industry.
             </div>
             <div className="m-4">
                 I've been lucky enough to work at some of the biggest companies
                 in their respective industries including{' '}
-                <span className="text-pink font-bold">Saatchi & Saatchi</span>{' '}
+                <span className="text-pink font-bold"> Saatchi & Saatchi </span>
                 and more recently, the world's leading outdoor advertising
                 company,
-                <span className="text-pink font-bold">JCDecaux</span>.
+                <span className="text-pink font-bold"> JCDecaux</span>.
                 <Contact />
             </div>
             <div className="m-4">

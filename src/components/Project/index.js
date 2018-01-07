@@ -26,10 +26,10 @@ const Project = ({
         <div className="px-4 py-3 leading-normal">
             <h2 className="font-bold text-xl mb-2">{title}</h2>
             <p className="text-sm">{description}</p>
-            <h3 className="h-3 mt-6 mb-6">{jobTitle}</h3>
+            <h3 className="h-3 mt-8 mb-6">{jobTitle}</h3>
             <p className="text-sm mt-3">{role}</p>
         </div>
-        <div className="px-4 py-2">
+        <div className="px-4 py-2 mt-8">
             <span>
                 {icons &&
                     icons.map((icon, key) =>
