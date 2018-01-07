@@ -35,7 +35,7 @@ class App extends Component {
                     </div>
                     <div className="flex-1">
                         <div className="flex h-full float-right items-center">
-                           <span className="mr-3">
+                           <span className="mr-6">
                                 <a
                                   href="https://uk.yunojuno.com/p/craig-cartmell"
                                   rel="noopener noreferrer"
@@ -45,7 +45,7 @@ class App extends Component {
                                   <img className="w-6" src={yunojuno} />
                                 </a>
                             </span>
-                            <span className="mr-3">
+                            <span className="mr-6">
                                 <a
                                     href="https://www.linkedin.com/in/craigcartmell1/"
                                     rel="noopener noreferrer"
@@ -58,7 +58,7 @@ class App extends Component {
                                     </span>
                                 </a>
                             </span>
-                            <span className="mr-3">
+                            <span className="mr-6">
                                 <a
                                     href="https://github.com/craigcartmell"
                                     rel="noopener noreferrer"
@@ -71,7 +71,7 @@ class App extends Component {
                                     </span>
                                 </a>
                             </span>
-                            <span className="mr-3">
+                            <span>
                                 <a
                                     href="https://twitter.com/craigcartmell1"
                                     rel="noopener noreferrer"
