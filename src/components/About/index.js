@@ -5,7 +5,7 @@ import { circleDown } from 'react-icons-kit/icomoon/index';
 
 const About = () => (
     <section className="w-full h-screen text-center bg-transparent text-xl">
-        <div className="flex flex-row h-full items-center p-12">
+        <div className="flex flex-col xl:flex-row h-full items-center justify-start xl:justify-center lg:justify-center">
             <div className="m-4">
                 I'm an experienced and highly motivated
                 <span className="text-pink font-bold">
