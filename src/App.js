@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import defaultConfig from 'tailwindcss/defaultConfig'
 import './App.css';
 import logo from './images/logo-white.png';
+import yunojuno from './images/yunojuno.svg';
 
 import Project from './components/Project';
 
@@ -33,11 +34,22 @@ class App extends Component {
                     </div>
                     <div className="flex-1">
                         <div className="flex h-full float-right items-center">
+                           <span className="mr-3">
+                                <a
+                                  href="https://uk.yunojuno.com/p/craig-cartmell"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                  title="YunoJuno"
+                                >
+                                  <img className="w-6" src={yunojuno} />
+                                </a>
+                            </span>
                             <span className="mr-3">
                                 <a
                                     href="https://www.linkedin.com/in/craigcartmell1/"
                                     rel="noopener noreferrer"
                                     target="_blank"
+                                    title="LinkedIn"
                                 >
                                     {/*<span style={{color: "#0077B5"}}>*/}
                                     <span style={{ color: defaultConfig().colors["white"] }}>
@@ -50,6 +62,7 @@ class App extends Component {
                                     href="https://github.com/craigcartmell"
                                     rel="noopener noreferrer"
                                     target="_blank"
+                                    title="Github"
                                 >
                                     {/*<span style={{color: "#181717"}}>*/}
                                     <span style={{ color: defaultConfig().colors["white"] }}>
@@ -62,6 +75,7 @@ class App extends Component {
                                     href="https://twitter.com/craigcartmell1"
                                     rel="noopener noreferrer"
                                     target="_blank"
+                                    title="Twitter"
                                 >
                                     {/*<span style={{color: '#1DA1F2'}}>*/}
                                     <span style={{ color: defaultConfig().colors["white"] }}>
