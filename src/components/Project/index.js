@@ -4,9 +4,11 @@ import Icon from 'react-icons-kit';
 const Project = ({
     color,
     heroSrc,
+    jobTitle = "Senior Full Stack Developer",
     title,
     description,
     icons,
+    role = "",
     style = { clipPath: 'polygon(0 0, 100% 0, 100% 66%, 0 60%)' }
 }) => (
     <div
@@ -21,9 +23,11 @@ const Project = ({
                 style={style}
             />
         </div>
-        <div className="px-4 py-3">
-            <div className="font-bold text-xl mb-2">{title}</div>
+        <div className="px-4 py-3 leading-normal">
+            <h2 className="font-bold text-xl mb-2">{title}</h2>
             <p className="text-sm">{description}</p>
+            <h3 className="h-3 mt-6 mb-6">{jobTitle}</h3>
+            <p className="text-sm mt-3">{role}</p>
         </div>
         <div className="px-4 py-2 opacity-50">
             <span style={{ color: '#fff' }}>
