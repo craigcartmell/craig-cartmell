@@ -28,7 +28,7 @@ const About = () => (
                 readable code and helping implement best practises.
             </div>
         </div>
-        <div className="absolute pin-b w-full h-auto mb-6">
+        <div className="absolute pin-b w-full h-auto mb-6 hidden xl:block lg:block md:block">
             <span className="block text-pink">View Latest Work</span>
             <span className="block mt-2 text-white bounce">
                 <Icon icon={circleDown} size={32} />

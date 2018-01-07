@@ -30,7 +30,12 @@ const Header = () => (
                         target="_blank"
                         title="YunoJuno"
                     >
-                        <img alt="YunoJuno" className="w-6" src={yunojuno} />
+                        <img
+                            alt="YunoJuno"
+                            style={{ minWidth: '20px' }}
+                            className="w-6 xl:w-6 lg:w-6 md:w-6 sm:w-6"
+                            src={yunojuno}
+                        />
                     </a>
                 </span>
                 <span className="mr-6">
