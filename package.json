@@ -2,6 +2,7 @@
   "name": "craig-cartmell",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://craigcartmell.github.io/craig-cartmell",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -54,11 +55,14 @@
   },
   "scripts": {
     "precommit": "lint-staged",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "tailwindcss": "^0.4.0"
   },
   "jest": {
