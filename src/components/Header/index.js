@@ -1,7 +1,13 @@
-import React from 'react'
-import Icon from 'react-icons-kit'
-import {cloudDownload, github, linkedin, mail4, twitter} from "react-icons-kit/icomoon/index"
-import defaultConfig from "tailwindcss/defaultConfig"
+import React from 'react';
+import Icon from 'react-icons-kit';
+import {
+    cloudDownload,
+    github,
+    linkedin,
+    mail4,
+    twitter
+} from 'react-icons-kit/icomoon/index';
+import defaultConfig from 'tailwindcss/defaultConfig';
 
 import logo from '../../images/logo-white.png';
 import yunojuno from '../../images/yunojuno.svg';
@@ -17,81 +23,91 @@ const Header = () => (
         </div>
         <div className="flex-1">
             <div className="flex h-full float-right items-center">
-                           <span className="mr-6">
-                                <a
-                                    href="https://uk.yunojuno.com/p/craig-cartmell"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    title="YunoJuno"
-                                >
-                                  <img alt="YunoJuno" className="w-6" src={yunojuno}/>
-                                </a>
-                            </span>
                 <span className="mr-6">
-                                <a
-                                    href="https://www.linkedin.com/in/craigcartmell1/"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    title="LinkedIn"
-                                >
-                                    {/*<span style={{color: "#0077B5"}}>*/}
-                                    <span style={{color: defaultConfig().colors["white"]}}>
-                                        <Icon icon={linkedin} size={24}/>
-                                    </span>
-                                </a>
-                            </span>
+                    <a
+                        href="https://uk.yunojuno.com/p/craig-cartmell"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="YunoJuno"
+                    >
+                        <img alt="YunoJuno" className="w-6" src={yunojuno} />
+                    </a>
+                </span>
                 <span className="mr-6">
-                                <a
-                                    href="https://uk.yunojuno.com/profile/p/craig-cartmell/cv"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    title="CV"
-                                >
-                                    {/*<span style={{color: "#0077B5"}}>*/}
-                                    <span style={{color: defaultConfig().colors["white"]}}>
-                                        <Icon icon={cloudDownload} size={24}/>
-                                    </span>
-                                </a>
-                            </span>
+                    <a
+                        href="https://www.linkedin.com/in/craigcartmell1/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="LinkedIn"
+                    >
+                        {/*<span style={{color: "#0077B5"}}>*/}
+                        <span
+                            style={{ color: defaultConfig().colors['white'] }}
+                        >
+                            <Icon icon={linkedin} size={24} />
+                        </span>
+                    </a>
+                </span>
                 <span className="mr-6">
-                                <a
-                                    href="mailto:craigcartmell1@gmail.com"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    title="Email"
-                                >
-                                    {/*<span style={{color: "#0077B5"}}>*/}
-                                    <span style={{color: defaultConfig().colors["white"]}}>
-                                        <Icon icon={mail4} size={24}/>
-                                    </span>
-                                </a>
-                            </span>
+                    <a
+                        href="https://uk.yunojuno.com/profile/p/craig-cartmell/cv"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="CV"
+                    >
+                        {/*<span style={{color: "#0077B5"}}>*/}
+                        <span
+                            style={{ color: defaultConfig().colors['white'] }}
+                        >
+                            <Icon icon={cloudDownload} size={24} />
+                        </span>
+                    </a>
+                </span>
                 <span className="mr-6">
-                                <a
-                                    href="https://github.com/craigcartmell"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    title="Github"
-                                >
-                                    {/*<span style={{color: "#181717"}}>*/}
-                                    <span style={{color: defaultConfig().colors["white"]}}>
-                                        <Icon icon={github} size={24}/>
-                                    </span>
-                                </a>
-                            </span>
+                    <a
+                        href="mailto:craigcartmell1@gmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="Email"
+                    >
+                        {/*<span style={{color: "#0077B5"}}>*/}
+                        <span
+                            style={{ color: defaultConfig().colors['white'] }}
+                        >
+                            <Icon icon={mail4} size={24} />
+                        </span>
+                    </a>
+                </span>
+                <span className="mr-6">
+                    <a
+                        href="https://github.com/craigcartmell"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        {/*<span style={{color: "#181717"}}>*/}
+                        <span
+                            style={{ color: defaultConfig().colors['white'] }}
+                        >
+                            <Icon icon={github} size={24} />
+                        </span>
+                    </a>
+                </span>
                 <span>
-                                <a
-                                    href="https://twitter.com/craigcartmell1"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    title="Twitter"
-                                >
-                                    {/*<span style={{color: '#1DA1F2'}}>*/}
-                                    <span style={{color: defaultConfig().colors["white"]}}>
-                                        <Icon icon={twitter} size={24}/>
-                                    </span>
-                                </a>
-                            </span>
+                    <a
+                        href="https://twitter.com/craigcartmell1"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        {/*<span style={{color: '#1DA1F2'}}>*/}
+                        <span
+                            style={{ color: defaultConfig().colors['white'] }}
+                        >
+                            <Icon icon={twitter} size={24} />
+                        </span>
+                    </a>
+                </span>
             </div>
         </div>
     </header>
