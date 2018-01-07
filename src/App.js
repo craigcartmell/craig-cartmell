@@ -122,62 +122,66 @@ class App extends Component {
                     <div className="w-1/4 h-1 bg-blue-light" />
                     <div className="w-1/4 h-1 bg-green" />
                 </section>
-                <section className="flex flex-row w-full h-auto p-8 text-center bg-transparent text-xl">
+                <section className="w-full h-screen text-center bg-transparent text-xl">
+                  <div className="flex flex-row h-full items-center p-12">
                     <p className="m-4">
-                        I'm an experienced and highly motivated
-                        <span className="text-pink font-bold">
+                      I'm an experienced and highly motivated
+                      <span className="text-pink font-bold">
                             {' '}
-                            Freelance Senior Full Stack Developer
+                        Freelance Senior Full Stack Developer
                         </span>{' '}
-                        with over 15 years in the industry.
+                      with over 15 years in the industry.
                     </p>
                     <p className="m-4">
-                        I've been lucky enough to work for some of the biggest
-                        companies in their respective industries including{' '}
-                        <span className="text-pink font-bold">
+                      I've been lucky enough to work for some of the biggest
+                      companies in their respective industries including{' '}
+                      <span className="text-pink font-bold">
                             Saatchi & Saatchi
                         </span>{' '}
-                        and more recently, the world's leading outdoor
-                        advertising company,
-                        <span className="text-pink font-bold"> JCDecaux</span>.
+                      and more recently, the world's leading outdoor
+                      advertising company,
+                      <span className="text-pink font-bold"> JCDecaux</span>.
+
+                      <section className="flex flex-row w-full justify-center items-center p-8">
+                        <a
+                          href="https://uk.yunojuno.com/p/craig-cartmell"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded mr-1">
+                            Check my availability
+                          </button>
+                        </a>
+
+                        <a
+                          href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded mr-1">
+                            Get in touch
+                          </button>
+                        </a>
+
+                        <a
+                          href="https://uk.yunojuno.com/profile/p/craig-cartmell/cv/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
+                            Download my CV
+                          </button>
+                        </a>
+                      </section>
                     </p>
                     <p className="m-4">
-                        I'm dedicated to staying ahead of the curve, writing
-                        clean, readable code and helping implement best
-                        practises.
+                      I'm dedicated to staying ahead of the curve, writing
+                      clean, readable code and helping implement best
+                      practises.
                     </p>
+                  </div>
                 </section>
-                <section className="flex flex-row w-full justify-center items-center p-8">
-                  <a
-                    href="https://uk.yunojuno.com/p/craig-cartmell"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
-                      Check my availability
-                    </button>
-                  </a>
 
-                  <a
-                    href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
-                      Get in touch
-                    </button>
-                  </a>
-
-                  <a
-                    href="mailto:craigcartmell1@gmail.com?subject=Are you available%3F"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="bg-pink hover:bg-pink-dark text-pink-darker hover:text-pink-light font-bold py-2 px-4 border border-pink-darker rounded">
-                      Download my CV
-                    </button>
-                  </a>
-                </section>
                 <section className="flex w-full flex-wrap">
                   <Project
                       color="pink"
