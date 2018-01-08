@@ -23,12 +23,12 @@ const About = () => (
                 <span className="text-pink font-bold"> JCDecaux</span>.
                 <Contact />
             </div>
-            <div className="mb-4">
+            <div className="hidden md:block mb-0 md:mb-4">
                 I'm dedicated to staying ahead of the curve, writing clean,
                 readable code and helping implement best practises.
             </div>
         </div>
-        <div className="absolute pin-b w-full h-auto mb-6 hidden xl:block lg:block md:block">
+        <div className="absolute pin-b w-full h-auto mb-6 hidden md:block">
             <span className="block text-pink">View Latest Work</span>
             <span className="block mt-2 text-white bounce">
                 <Icon icon={circleDown} size={32} />
