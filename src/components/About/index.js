@@ -4,7 +4,7 @@ import Icon from 'react-icons-kit';
 import { circleDown } from 'react-icons-kit/icomoon/index';
 
 const About = () => (
-    <section className="w-full h-screen text-center bg-transparent text-xl">
+    <section className="w-full h-screen text-center bg-transparent text-xl mb-1">
         <div className="flex flex-col xl:flex-row h-full pt-8 xl:pt-0 lg:pt-0 items-center justify-start xl:justify-center lg:justify-center">
             <div className="m-4">
                 I'm an experienced and highly motivated
@@ -23,7 +23,7 @@ const About = () => (
                 <span className="text-pink font-bold"> JCDecaux</span>.
                 <Contact />
             </div>
-            <div className="m-4">
+            <div>
                 I'm dedicated to staying ahead of the curve, writing clean,
                 readable code and helping implement best practises.
             </div>
