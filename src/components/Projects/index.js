@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Element } from 'react-scroll';
+
 import Project from '../Project';
 import ReactIcon from '../DevIcons/React';
 import PHPIcon from '../DevIcons/PHP';
@@ -137,9 +139,13 @@ const projectsData = [
 ];
 
 const Projects = () => (
-    <section className="flex w-full flex-wrap">
-        {projectsData.map((p, k) => <Project key={k} {...p} />)}
-    </section>
+    <Fragment>
+        <Element name="projects">
+            <section className="flex w-full flex-wrap">
+                {projectsData.map((p, k) => <Project key={k} {...p} />)}
+            </section>
+        </Element>
+    </Fragment>
 );
 
 export default Projects;

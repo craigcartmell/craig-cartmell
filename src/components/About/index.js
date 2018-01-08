@@ -1,7 +1,9 @@
 import React from 'react';
-import Contact from '../Contact';
+import { Link } from 'react-scroll';
 import Icon from 'react-icons-kit';
 import { circleDown } from 'react-icons-kit/icomoon/index';
+
+import Contact from '../Contact';
 
 const About = () => (
     <section className="w-full h-screen text-center bg-transparent text-xl mb-2">
@@ -29,10 +31,17 @@ const About = () => (
             </div>
         </div>
         <div className="absolute pin-b w-full h-auto mb-6 hidden md:block">
-            <span className="block text-pink">View Latest Work</span>
-            <span className="block mt-2 text-white bounce">
-                <Icon icon={circleDown} size={32} />
-            </span>
+            <Link
+                to="projects"
+                className="cursor-pointer no-underline"
+                smooth={true}
+                duration={500}
+            >
+                <span className="block text-pink">View Latest Work</span>
+                <span className="block mt-2 text-white bounce">
+                    <Icon icon={circleDown} size={32} />
+                </span>
+            </Link>
         </div>
     </section>
 );

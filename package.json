@@ -39,6 +39,7 @@
     "react-dev-utils": "^4.2.1",
     "react-dom": "^16.2.0",
     "react-icons-kit": "^1.0.7",
+    "react-scroll": "^1.7.5",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.6.2",
