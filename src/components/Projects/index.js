@@ -27,7 +27,7 @@ const projectsData = [
     {
         color: 'pink',
         description:
-            'SmartContent is a single page content management platform for managing digital out of home ads.',
+            'SmartContent is a content management platform for managing digital out of home ads.',
         icons: [
             <ReactIcon />,
             <JavaScript />,
@@ -42,16 +42,17 @@ const projectsData = [
         jobTitle: 'Senior Full Stack Developer',
         role:
             'Initially hired as a freelancer to support the recently created MVP, I moved into a permanent role to ' +
-            'help rebuild the content management system from the ground up. I was responsible ' +
+            'help rebuild the app from the ground up. I was responsible ' +
             'for the initial front-end platform build including liaising with the UX designer, choosing the ' +
-            'tech stack and creating the initial boilerplate.',
+            'tech stack and creating the initial boilerplate. The platform was built as a single page app, using ' +
+            'React and Redux for the front-end and Laravel for the RESTful API.',
         style: { clipPath: 'polygon(0px 0px, 100% 0px, 100% 100%, 0px 90%)' },
         title: 'SmartContent for Dynamic, JCDecaux'
     },
     {
         color: 'indigo',
         description:
-            'A single page, real-time dashboard showing job failures and campaign analytics.',
+            'A real-time dashboard showing job failures and campaign analytics.',
         heroSrc: scDashboardHero,
         icons: [
             <ReactIcon />,
@@ -63,8 +64,9 @@ const projectsData = [
         ],
         jobTitle: 'Senior Full Stack Developer',
         role:
-            'A pet project to display critical information about campaigns and system performance. I built it using Apollo 2 ' +
-            '(GraphQL) server for the backend and Apollo 2 client with React for the front-end.',
+            'A pet project to display critical information about campaigns and system performance. ' +
+            'I built it as a single page app using Apollo 2 (GraphQL) server for the back-end and Apollo 2 ' +
+            'client with React for the front-end.',
         title: 'SmartContent Dashboard for Dynamic, JCDecaux',
         style: {
             clipPath: 'polygon(0 0, 100% 0, 100% 76%, 0 86%)'
@@ -81,7 +83,7 @@ const projectsData = [
         jobTitle: 'Freelance Front-End Developer',
         title: 'ExxonMobil Sales Supervisor Excellence for KHWS',
         role:
-            'As the sole frontend developer, my role was to create a new Self Assessment Platform for ExxonMobil' +
+            'As the sole front-end developer, my role was to create a new Self Assessment Platform for ExxonMobil' +
             ' Sales Employees.',
         style: {
             clipPath: 'polygon(0px 0px, 100% 0px, 100% 100%, 0px 94%)'
@@ -94,9 +96,9 @@ const projectsData = [
             'The winners were offered 1 year paid work placement.',
         heroSrc: theDoorHero,
         icons: [<PHPIcon />, <CodeIgniter />, <MySQL />],
-        jobTitle: 'Backend Developer',
+        jobTitle: 'Back-End Developer',
         role:
-            'Responsible for the full backend development, my role was to create a RESTful API to validate and ' +
+            'Responsible for the full back-end development, my role was to create a RESTful API to validate and ' +
             'store submitted user data. Submissions could be viewed via an admin interface which allowed searching ' +
             'and exporting of data.',
         style: { clipPath: 'polygon(0px 0px, 100% 0px, 100% 84%, 0px 96%)' },
@@ -110,9 +112,9 @@ const projectsData = [
             'custom slogan, and upload it to social media.',
         heroSrc: cravendaleMilkposterHero,
         icons: [<PHPIcon />, <CodeIgniter />, <MySQL />],
-        jobTitle: 'Backend Developer',
+        jobTitle: 'Back-End Developer',
         role:
-            'Responsible for the full backend development, my role was to create an API to store ' +
+            'Responsible for the full back-end development, my role was to create an API to store ' +
             'submitted user data and generate an avatar using Imagick.',
         title: 'Cravendale Milk Poster for Saatchi & Saatchi',
         style: { clipPath: 'polygon(0px 0px, 100% 0px, 100% 99%, 0px 90%)' },
@@ -127,7 +129,7 @@ const projectsData = [
         icons: [<PHPIcon />, <Laravel />, <MySQL />, <JavaScript />, <Gulp />],
         jobTitle: 'Freelance Full Stack Developer',
         role:
-            'The site was built in return for charity sponsorship for the Great North Run 2015. As well as providing' +
+            'The site was built in return for charity sponsorship for the Great North Run 2016. As well as providing' +
             ' information for parents, it also gave the tutors with the ability to setup lessons using a calendar system' +
             ' and issue invoices.',
         title: 'Teachers As Tutors',
