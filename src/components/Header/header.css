@@ -1,0 +1,19 @@
+.Header {
+}
+
+.Header__iconContainer {
+    margin-right: config('margin.6');
+}
+
+.Header__iconContainer:last-child {
+    margin-right: 0;
+}
+
+.Header__icon {
+    color: config('colors.white');
+    transition: all 0.55s;
+}
+
+.Header__icon:hover {
+    color: config('colors.grey-dark');
+}
