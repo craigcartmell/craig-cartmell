@@ -6,7 +6,7 @@ import { circleDown } from 'react-icons-kit/icomoon/index';
 import Contact from '../Contact';
 
 const About = () => (
-    <section className="w-full h-screen text-center bg-transparent text-xl mb-2">
+    <section className="w-full h-screen text-center bg-transparent text-lg md:text-xl mb-8 md:mb-2">
         <div className="flex flex-col xl:flex-row h-screen pt-8 xl:pt-0 lg:pt-0 items-center justify-start xl:justify-center lg:justify-center">
             <div className="m-4">
                 I'm an experienced and highly motivated
@@ -29,19 +29,20 @@ const About = () => (
                 I'm dedicated to staying ahead of the curve, writing clean,
                 readable code and helping implement best practises.
             </div>
-        </div>
-        <div className="absolute pin-b w-full h-auto mb-6 hidden md:block">
-            <Link
-                to="projects"
-                className="cursor-pointer no-underline"
-                smooth={true}
-                duration={500}
-            >
-                <span className="block text-pink">View Latest Work</span>
-                <span className="block mt-2 text-white bounce">
-                    <Icon icon={circleDown} size={32} />
-                </span>
-            </Link>
+
+            <div className="block md:absolute md:pin-b w-full h-auto mb-2">
+                <Link
+                    to="projects"
+                    className="cursor-pointer no-underline"
+                    smooth={true}
+                    duration={500}
+                >
+                    <span className="block text-pink">View Latest Work</span>
+                    <span className="block mt-2 text-white bounce">
+                        <Icon icon={circleDown} size={32} />
+                    </span>
+                </Link>
+            </div>
         </div>
     </section>
 );
