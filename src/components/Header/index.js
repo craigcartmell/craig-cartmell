@@ -23,7 +23,7 @@ export class Header extends Component {
             },
             {
                 url:
-                    '/Craig Cartmell - Freelance Senior Full Stack Developer - CV.pdf',
+                    '/Craig Cartmell - Contract Senior Full Stack Developer - CV.pdf',
                 icon: cloudDownload,
                 title: 'CV'
             },
