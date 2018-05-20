@@ -12,7 +12,7 @@ const About = () => (
                 I'm an experienced and highly motivated
                 <span className="text-pink font-bold">
                     {' '}
-                    Freelance Senior Full Stack Developer{' '}
+                    Contract Senior Full Stack Developer{' '}
                 </span>
                 with over 15 years in the industry.
             </div>
@@ -37,7 +37,7 @@ const About = () => (
                     smooth={true}
                     duration={500}
                 >
-                    <span className="block text-pink">View Latest Work</span>
+                    <span className="block text-pink">My Latest Work</span>
                     <span className="block mt-2 text-white bounce">
                         <Icon icon={circleDown} size={32} />
                     </span>

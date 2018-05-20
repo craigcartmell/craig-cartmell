@@ -22,8 +22,24 @@ import cravendaleMilkposterHero from '../../images/projects/cravendale-milkposte
 import tutorsHero from '../../images/projects/teachers-as-tutors.png';
 import theDoorHero from '../../images/projects/saatchi-the-door.png';
 import scDashboardHero from '../../images/projects/jcdecaux-smart-content-dashboard.png';
+import drawHero from '../../images/projects/draw-mobile-app.png';
 
 const projectsData = [
+    {
+        color: 'green',
+        description:
+            'An iOS and Android app for a German based energy company.',
+        icons: [<ReactIcon />, <JavaScript />, <Babel />],
+        heroSrc: drawHero,
+        jobTitle: 'Contract React Native Developer',
+        role:
+            'Working closely with project managers and UX designers, my role was to help implement new features ' +
+            'to an iOS and Android app for a German based energy company.\n' +
+            'The app was built using React Native, React Navigation and Redux/Redux Sagas for the state management ' +
+            'and handling of side-effects.\n',
+        style: { clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' },
+        title: 'Draw Group'
+    },
     {
         color: 'pink',
         description:
@@ -80,7 +96,7 @@ const projectsData = [
             ' directors to view the statistical data using charts and graphs.',
         heroSrc: exxonSalesHero,
         icons: [<JavaScript />, <CSS3 />, <Gulp />],
-        jobTitle: 'Freelance Front-End Developer',
+        jobTitle: 'Contract Front-End Developer',
         title: 'ExxonMobil Sales Supervisor Excellence for KHWS',
         role:
             'As the sole front-end developer, my role was to create a new Self Assessment Platform for ExxonMobil' +
@@ -127,7 +143,7 @@ const projectsData = [
             ' tutoring service offering tuition and exam preparation for 7+, 8+, 11+ and CE.',
         heroSrc: tutorsHero,
         icons: [<PHPIcon />, <Laravel />, <MySQL />, <JavaScript />, <Gulp />],
-        jobTitle: 'Freelance Full Stack Developer',
+        jobTitle: 'Contract Full Stack Developer',
         role:
             'The site was built in return for charity sponsorship for the Great North Run 2016. As well as providing' +
             ' information for parents, it also gave the tutors with the ability to setup lessons using a calendar system' +
