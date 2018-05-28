@@ -23,10 +23,11 @@ import tutorsHero from '../../images/projects/teachers-as-tutors.png';
 import theDoorHero from '../../images/projects/saatchi-the-door.png';
 import scDashboardHero from '../../images/projects/jcdecaux-smart-content-dashboard.png';
 import drawHero from '../../images/projects/draw-mobile-app.png';
+import twHero from '../../images/projects/tailwind-themes.png';
 
 const projectsData = [
     {
-        color: 'green',
+        color: 'indigo',
         description:
             'An iOS and Android app for a German based energy company.',
         icons: [<ReactIcon />, <JavaScript />, <Babel />],
@@ -38,10 +39,10 @@ const projectsData = [
             'The app was built using React Native, React Navigation and Redux/Redux Sagas for the state management ' +
             'and handling of side-effects.\n',
         style: { clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' },
-        title: 'Draw Group'
+        title: 'A React Native app for Draw Group'
     },
     {
-        color: 'pink',
+        color: 'orange',
         description:
             'SmartContent is a content management platform for managing digital out of home ads.',
         icons: [
@@ -64,6 +65,26 @@ const projectsData = [
             'React and Redux for the front-end and Laravel for the RESTful API.',
         style: { clipPath: 'polygon(0px 0px, 100% 0px, 100% 100%, 0px 90%)' },
         title: 'SmartContent for Dynamic, JCDecaux'
+    },
+    {
+        color: 'teal',
+        description:
+            'Tailwind Themes is a marketplace for free and premium web templates built using TailwindCSS.',
+        icons: [
+            <ReactIcon />,
+            <Node />,
+            <Sequelize />,
+            <MySQL />,
+            <Webpack />,
+            <Babel />
+        ],
+        heroSrc: twHero,
+        jobTitle: 'Creator',
+        role:
+            'A personal project I built it as a single page app using Apollo 2 (GraphQL) server for the back-end and Apollo 2 client with React for the front-end.',
+        style: { clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)' },
+        title: 'Tailwind Themes',
+        url: 'https://www.tailwind-themes.com'
     },
     {
         color: 'indigo',
@@ -90,7 +111,7 @@ const projectsData = [
         url: 'https://github.com/craigcartmell/dashboard'
     },
     {
-        color: 'teal',
+        color: 'pink',
         description:
             'The tool helps employees measure their own performance as well as allowing managers and' +
             ' directors to view the statistical data using charts and graphs.',

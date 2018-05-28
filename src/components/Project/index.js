@@ -12,7 +12,7 @@ const Project = ({
     url
 }) => (
     <div
-        className={`xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full h-full overflow-hidden shadow-lg bg-${color} text-white mb-8 md:mb-0`}
+        className={`xl:w-1/3 lg:w-1/2 md:w-1/2 sm:w-full h-full overflow-hidden shadow-lg bg-${color} text-white mb-8 sm:mb-0`}
     >
         <div className="h-6" />
         <div className="w-full">
