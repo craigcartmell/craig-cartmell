@@ -1,6 +1,4 @@
 import React from 'react';
-import Icon from 'react-icons-kit';
-import { heart } from 'react-icons-kit/icomoon';
 import ReactIcon from '../DevIcons/React';
 
 const Footer = () => (
